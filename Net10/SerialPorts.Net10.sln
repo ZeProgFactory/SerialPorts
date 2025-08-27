@@ -5,8 +5,6 @@ VisualStudioVersion = 17.8.34004.107
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SerialPorts.CMD", "SerialPorts.CMD\SerialPorts.CMD.csproj", "{81CB5AF8-E9FE-49A7-89B1-4C2A164DAA64}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SerialPorts.MAUI", "SerialPorts.MAUI\SerialPorts.MAUI.csproj", "{090A7186-5B79-413B-B342-BF7484BC6190}"
-EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{7469EB2D-52E3-4E23-87AD-87522343937E}"
 	ProjectSection(SolutionItems) = preProject
 		..\README.md = ..\README.md
@@ -18,6 +16,8 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DllSerialPorts", "DllSerial
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SerialPorts.Maui2DLL", "SerialPorts.Maui2DLL\SerialPorts.Maui2DLL.csproj", "{34E7000E-19BC-4525-B9F6-EB08A2F46EEF}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SerialPorts.MAUI", "SerialPorts.MAUI\SerialPorts.MAUI.csproj", "{E716A34B-401A-242C-B7F3-212DE4CB96A8}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -28,11 +28,6 @@ Global
 		{81CB5AF8-E9FE-49A7-89B1-4C2A164DAA64}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{81CB5AF8-E9FE-49A7-89B1-4C2A164DAA64}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{81CB5AF8-E9FE-49A7-89B1-4C2A164DAA64}.Release|Any CPU.Build.0 = Release|Any CPU
-		{090A7186-5B79-413B-B342-BF7484BC6190}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{090A7186-5B79-413B-B342-BF7484BC6190}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{090A7186-5B79-413B-B342-BF7484BC6190}.Debug|Any CPU.Deploy.0 = Debug|Any CPU
-		{090A7186-5B79-413B-B342-BF7484BC6190}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{090A7186-5B79-413B-B342-BF7484BC6190}.Release|Any CPU.Build.0 = Release|Any CPU
 		{C632DABF-E9BD-4971-B035-B4FBDAD8CE1F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{C632DABF-E9BD-4971-B035-B4FBDAD8CE1F}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{C632DABF-E9BD-4971-B035-B4FBDAD8CE1F}.Release|Any CPU.ActiveCfg = Release|Any CPU
@@ -45,6 +40,12 @@ Global
 		{34E7000E-19BC-4525-B9F6-EB08A2F46EEF}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{34E7000E-19BC-4525-B9F6-EB08A2F46EEF}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{34E7000E-19BC-4525-B9F6-EB08A2F46EEF}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E716A34B-401A-242C-B7F3-212DE4CB96A8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E716A34B-401A-242C-B7F3-212DE4CB96A8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E716A34B-401A-242C-B7F3-212DE4CB96A8}.Debug|Any CPU.Deploy.0 = Debug|Any CPU
+		{E716A34B-401A-242C-B7F3-212DE4CB96A8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E716A34B-401A-242C-B7F3-212DE4CB96A8}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E716A34B-401A-242C-B7F3-212DE4CB96A8}.Release|Any CPU.Deploy.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

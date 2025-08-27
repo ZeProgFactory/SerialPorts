@@ -1,3 +1,14 @@
+
+# SerialPorts and MAUI
+## .net 10 preview
+It will work if you are targeting a custom Android platform or a rooted phone (after some fiddle), but not for a phone running stock ROM.
+https://stackoverflow.com/questions/78085164/does-the-cross-platform-system-io-ports-serialport-library-work-on-android-with
+
+SerialPort is not supported on Android ?
+https://github.com/dotnet/runtime/issues/86619#issuecomment-1843502371
+
+
+# before 27/08/2025
 # SerialPorts and MAUI
 
 ## test with /dev/tty.usbserial-FTF91Q27
